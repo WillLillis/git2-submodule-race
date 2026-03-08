@@ -1,0 +1,9 @@
+[package]
+name = "git2-submodule-race"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+git2 = { git = "https://github.com/WillLillis/git2-rs", branch = "submod_lookup_err" }
+# git2 = "0.20.4"
+tempfile = "3"
